@@ -607,3 +607,263 @@ DEBUG - 2023-12-01 14:00:28 --> UTF-8 Support Enabled
 DEBUG - 2023-12-01 14:00:28 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2023-12-01 14:00:28 --> Form_validation class already loaded. Second attempt ignored.
 DEBUG - 2023-12-01 14:00:28 --> Total execution time: 0.0500
+DEBUG - 2023-12-01 14:27:43 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 14:27:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-01 14:27:43 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2023-12-01 14:27:43 --> Total execution time: 0.0415
+DEBUG - 2023-12-01 14:27:45 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 14:27:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-01 14:27:45 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2023-12-01 14:27:45 --> Total execution time: 0.0469
+DEBUG - 2023-12-01 14:27:45 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 14:27:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-01 14:27:45 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2023-12-01 14:27:45 --> Total execution time: 0.0411
+DEBUG - 2023-12-01 14:27:46 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 14:27:46 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-01 14:27:46 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2023-12-01 14:27:46 --> Total execution time: 0.0442
+DEBUG - 2023-12-01 14:28:22 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 14:28:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-01 14:28:22 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2023-12-01 14:28:22 --> Total execution time: 0.0581
+DEBUG - 2023-12-01 14:30:51 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 14:30:51 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-01 14:30:51 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2023-12-01 14:30:51 --> Total execution time: 0.0529
+DEBUG - 2023-12-01 14:30:52 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 14:30:52 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-01 14:30:52 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2023-12-01 14:30:52 --> Total execution time: 0.0443
+DEBUG - 2023-12-01 14:31:09 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 14:31:09 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-01 14:31:09 --> Total execution time: 0.0562
+DEBUG - 2023-12-01 14:31:39 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 14:31:39 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-01 14:31:39 --> Unable to find callback validation rule: validate_image
+DEBUG - 2023-12-01 14:31:39 --> Total execution time: 0.0929
+DEBUG - 2023-12-01 14:31:39 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 14:31:39 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-01 14:31:39 --> Unable to find callback validation rule: validate_image
+DEBUG - 2023-12-01 14:31:39 --> Total execution time: 0.0586
+DEBUG - 2023-12-01 14:33:41 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 14:33:41 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-01 14:33:41 --> Total execution time: 0.0454
+DEBUG - 2023-12-01 14:33:43 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 14:33:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-01 14:33:43 --> Unable to find callback validation rule: validate_image
+DEBUG - 2023-12-01 14:33:43 --> Total execution time: 0.0394
+DEBUG - 2023-12-01 14:33:44 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 14:33:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-01 14:33:44 --> Unable to find callback validation rule: validate_image
+DEBUG - 2023-12-01 14:33:44 --> Total execution time: 0.0439
+DEBUG - 2023-12-01 14:33:44 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 14:33:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-01 14:33:44 --> Unable to find callback validation rule: validate_image
+DEBUG - 2023-12-01 14:33:44 --> Total execution time: 0.0530
+DEBUG - 2023-12-01 14:55:26 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 14:55:26 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-01 14:55:26 --> You did not select a file to upload.
+DEBUG - 2023-12-01 14:55:28 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 14:55:28 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-01 14:55:28 --> You did not select a file to upload.
+DEBUG - 2023-12-01 14:55:28 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 14:55:28 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-01 14:55:28 --> You did not select a file to upload.
+DEBUG - 2023-12-01 14:55:28 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 14:55:29 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-01 14:55:29 --> You did not select a file to upload.
+DEBUG - 2023-12-01 14:56:43 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 14:56:43 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-01 14:56:43 --> You did not select a file to upload.
+DEBUG - 2023-12-01 14:56:44 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 14:56:44 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-01 14:56:44 --> You did not select a file to upload.
+DEBUG - 2023-12-01 14:56:44 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 14:56:44 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-01 14:56:44 --> You did not select a file to upload.
+DEBUG - 2023-12-01 14:56:44 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 14:56:44 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-01 14:56:44 --> You did not select a file to upload.
+DEBUG - 2023-12-01 14:56:44 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 14:56:44 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-01 14:56:45 --> You did not select a file to upload.
+DEBUG - 2023-12-01 14:56:45 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 14:56:45 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-01 14:56:45 --> You did not select a file to upload.
+DEBUG - 2023-12-01 14:56:45 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 14:56:45 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-01 14:56:45 --> You did not select a file to upload.
+DEBUG - 2023-12-01 14:56:45 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 14:56:45 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-01 14:56:45 --> You did not select a file to upload.
+DEBUG - 2023-12-01 14:56:45 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 14:56:45 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-01 14:56:46 --> You did not select a file to upload.
+DEBUG - 2023-12-01 14:56:46 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 14:56:46 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-01 14:56:46 --> You did not select a file to upload.
+DEBUG - 2023-12-01 14:56:46 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 14:56:46 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-01 14:56:46 --> You did not select a file to upload.
+DEBUG - 2023-12-01 14:56:46 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 14:56:46 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-01 14:56:46 --> You did not select a file to upload.
+DEBUG - 2023-12-01 14:57:27 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 14:57:27 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-01 14:57:27 --> You did not select a file to upload.
+DEBUG - 2023-12-01 14:57:57 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 14:57:57 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-01 14:57:57 --> You did not select a file to upload.
+DEBUG - 2023-12-01 14:59:14 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 14:59:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-01 14:59:14 --> Total execution time: 0.0427
+DEBUG - 2023-12-01 14:59:14 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 14:59:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-01 14:59:14 --> Total execution time: 0.0512
+DEBUG - 2023-12-01 14:59:16 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 14:59:16 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-01 14:59:16 --> Total execution time: 0.0531
+DEBUG - 2023-12-01 14:59:21 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 14:59:21 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-01 14:59:21 --> Total execution time: 0.0435
+DEBUG - 2023-12-01 14:59:23 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 14:59:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-01 14:59:23 --> Total execution time: 0.0573
+DEBUG - 2023-12-01 14:59:23 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 14:59:23 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-01 14:59:23 --> Total execution time: 0.0505
+DEBUG - 2023-12-01 15:00:05 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 15:00:05 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-01 15:00:05 --> You did not select a file to upload.
+DEBUG - 2023-12-01 15:00:06 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 15:00:06 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-01 15:00:06 --> You did not select a file to upload.
+DEBUG - 2023-12-01 15:00:06 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 15:00:06 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-01 15:00:06 --> You did not select a file to upload.
+DEBUG - 2023-12-01 15:00:06 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 15:00:06 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-01 15:00:06 --> You did not select a file to upload.
+DEBUG - 2023-12-01 15:00:06 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 15:00:06 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-01 15:00:06 --> You did not select a file to upload.
+DEBUG - 2023-12-01 15:00:07 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 15:00:07 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-01 15:00:07 --> You did not select a file to upload.
+DEBUG - 2023-12-01 15:00:07 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 15:00:07 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-01 15:00:07 --> You did not select a file to upload.
+DEBUG - 2023-12-01 15:03:06 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 15:03:07 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-01 15:03:07 --> You did not select a file to upload.
+DEBUG - 2023-12-01 15:03:07 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 15:03:08 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-01 15:03:08 --> You did not select a file to upload.
+DEBUG - 2023-12-01 15:03:08 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 15:03:08 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-01 15:03:08 --> You did not select a file to upload.
+DEBUG - 2023-12-01 15:03:08 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 15:03:08 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-01 15:03:08 --> You did not select a file to upload.
+DEBUG - 2023-12-01 15:03:08 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 15:03:08 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-01 15:03:08 --> You did not select a file to upload.
+DEBUG - 2023-12-01 15:03:08 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 15:03:08 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-01 15:03:08 --> You did not select a file to upload.
+DEBUG - 2023-12-01 15:04:02 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 15:04:02 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-01 15:04:02 --> You did not select a file to upload.
+DEBUG - 2023-12-01 15:04:03 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 15:04:03 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-01 15:04:03 --> You did not select a file to upload.
+DEBUG - 2023-12-01 15:04:03 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 15:04:04 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-01 15:04:04 --> You did not select a file to upload.
+DEBUG - 2023-12-01 15:04:04 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 15:04:04 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-01 15:04:04 --> You did not select a file to upload.
+DEBUG - 2023-12-01 15:04:04 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 15:04:04 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-01 15:04:04 --> You did not select a file to upload.
+DEBUG - 2023-12-01 15:04:04 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 15:04:04 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-01 15:04:04 --> You did not select a file to upload.
+DEBUG - 2023-12-01 15:05:42 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 15:05:42 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-01 15:05:42 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2023-12-01 15:05:42 --> Total execution time: 0.0541
+DEBUG - 2023-12-01 15:05:44 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 15:05:44 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-01 15:05:57 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 15:05:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-01 15:05:58 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 15:05:58 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-01 15:05:59 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 15:05:59 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-01 15:06:24 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 15:06:24 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-01 15:06:24 --> Severity: error --> Exception: syntax error, unexpected token "public" C:\xampp\htdocs\ci_ajax\application\controllers\Employeecontroller.php 138
+DEBUG - 2023-12-01 15:07:12 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 15:07:12 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-01 15:07:12 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2023-12-01 15:07:12 --> Total execution time: 0.0499
+DEBUG - 2023-12-01 15:07:14 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 15:07:14 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-01 15:12:27 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 15:12:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-01 15:12:27 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2023-12-01 15:12:27 --> Total execution time: 0.0661
+DEBUG - 2023-12-01 15:12:29 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 15:12:29 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-01 15:12:29 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2023-12-01 15:12:29 --> Total execution time: 0.0560
+DEBUG - 2023-12-01 15:13:04 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 15:13:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-01 15:13:05 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2023-12-01 15:13:05 --> Total execution time: 0.0946
+DEBUG - 2023-12-01 15:13:06 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 15:13:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-01 15:16:26 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 15:16:26 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-01 15:16:26 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2023-12-01 15:16:26 --> Total execution time: 0.0495
+DEBUG - 2023-12-01 15:16:28 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 15:16:28 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-01 15:17:22 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 15:17:22 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-01 15:17:22 --> Severity: error --> Exception: trim(): Argument #1 ($string) must be of type string, array given C:\xampp\htdocs\ci_ajax\application\controllers\Employeecontroller.php 94
+DEBUG - 2023-12-01 15:20:43 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 15:20:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-01 15:20:43 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2023-12-01 15:20:43 --> Total execution time: 0.0999
+DEBUG - 2023-12-01 15:20:45 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 15:20:45 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-01 15:20:56 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 15:20:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-01 15:20:56 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2023-12-01 15:20:56 --> Total execution time: 0.0454
+DEBUG - 2023-12-01 15:21:02 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 15:21:02 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-01 15:21:43 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 15:21:43 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2023-12-01 15:21:43 --> Severity: error --> Exception: trim(): Argument #1 ($string) must be of type string, array given C:\xampp\htdocs\ci_ajax\application\controllers\Employeecontroller.php 94
+DEBUG - 2023-12-01 15:24:06 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 15:24:06 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-01 15:24:06 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2023-12-01 15:24:06 --> Total execution time: 0.0529
+DEBUG - 2023-12-01 15:24:08 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 15:24:08 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-01 15:25:39 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 15:25:39 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-01 15:25:39 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2023-12-01 15:25:39 --> Total execution time: 0.0417
+DEBUG - 2023-12-01 15:25:57 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 15:25:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-01 15:27:15 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 15:27:15 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2023-12-01 15:27:15 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2023-12-01 15:27:15 --> Total execution time: 0.0465
+DEBUG - 2023-12-01 15:27:16 --> UTF-8 Support Enabled
+DEBUG - 2023-12-01 15:27:16 --> Global POST, GET and COOKIE data sanitized

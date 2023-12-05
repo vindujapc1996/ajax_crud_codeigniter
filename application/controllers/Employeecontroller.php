@@ -9,82 +9,73 @@ class Employeecontroller extends CI_Controller {
         $this->load->library('form_validation');
     }
 
-
+//-------------------------------------------------pageview----------------------------
      public function index()
      {
            //  echo('123');die();
            $this->load->view('ajax_view');
      }
-//---------------------------------------------------pageview index--------------------------------------------
+//--------------------------------------normal submit---------------------------------------------------------
     public function submit()
     {
         $this->load->view('Employee');
 
-        // Assuming you have loaded the necessary model
-        $this->load->model('Employeemodel'); 
-        $this->load->library('form_validation');
+// Assuming you have loaded the necessary model
+$this->load->model('Employeemodel'); 
 
-    
-        // Check if it's an AJAX request
-        if ($this->input->is_ajax_request()) {
-            // Get the form data from POST
-            $data = $this->input->post();
-            $data['qualification'] = isset($data['qualification']) ? implode(',', $data['qualification']) : '';
+// Check if it's an AJAX request
+if ($this->input->is_ajax_request()) {
+    $data = array(); // Initialize $data as an array
 
-            // $qualification = $this->input->post('qualification');
-            //     $qualification_str = implode(', ', $qualification);
+    $data['name'] = $this->input->post('name');
+    $data['gender'] = $this->input->post('gender');
+    $data['dob'] = $this->input->post('dob');
+    $data['address'] = $this->input->post('address');
+    $data['email'] = $this->input->post('email');
+    $data['contact'] = $this->input->post('contact');
+    $data['place'] = $this->input->post('place');
 
-            $config['upload_path'] = './assets/uploads/';
-            $config['allowed_types'] = 'gif|jpg|png|jpeg|xlsx|xls|pdf|csv|doc|docx|odt|txt|mp4|mp3';
-            $config['max_size'] = 1024 * 1024;
-            $config['encrypt_name'] = TRUE;
-            $config['remove_spaces'] = TRUE;
-            $this->load->library('upload', $config);
+    $qualification = $this->input->post('qualification');
+    $data['qualification'] = implode(', ', $qualification);
 
-            if ($this->upload->do_upload('image')) {
-                $upload_data = $this->upload->data();
-                $data['image'] = $upload_data['file_name'];
+    $config['upload_path'] = './assets/uploads/';
+    $config['allowed_types'] = 'gif|jpg|png|jpeg|xlsx|xls|pdf|csv|doc|docx|odt|txt|mp4|mp3';
+    $config['max_size'] = 1024 * 1024;
+    $config['encrypt_name'] = TRUE;
+    $config['remove_spaces'] = TRUE;
+    $this->load->library('upload', $config);
 
-            } else {
-                // Log or print upload errors
-                echo $this->upload->display_errors();
-            }
-            // $this->form_validation->set_rules('name', 'Name', 'required');
-            // $this->form_validation->set_rules('gender', 'Gender', 'required');
-            // $this->form_validation->set_rules('dob', 'Date of Birth', 'required|date');
-            // $this->form_validation->set_rules('place', 'Place', 'required');
-            // $this->form_validation->set_rules('qualification[]', 'Qualification', 'required');
-            // $this->form_validation->set_rules('email', 'Email', 'required|valid_email');
-            // $this->form_validation->set_rules('address', 'Address', 'required');
-            // $this->form_validation->set_rules('contact', 'Contact', 'required|numeric');
-
-            // // Customize validation messages if needed
-            // $this->form_validation->set_message('required', 'The {field} field is required.');
-            // $this->form_validation->set_message('numeric', 'The {field} field must contain only numbers.');
-
-            // if ($this->form_validation->run() == FALSE) {
-            //     // If validation fails, send a response with error messages
-            //     $response = array('success' => false, 'message' => validation_errors());
-            // } else {
-  
-            
-            
-           // print_r($data);die();
-
-            // Call the correct model function to handle data insertion
-            $result = $this->Employeemodel->insertEmployee($data); // Corrected function name
-
-            // Send a response back to the Ajax request
-            if ($result) {
-                $response = array('success' => true, 'message' => 'Form submitted successfully!');
-            } else {
-                $response = array('success' => false, 'message' => 'Error submitting form. Please try again.');
-            }
-            header('Content-Type: application/json');
-            echo json_encode($response);
-    exit;
-        }
+    if ($this->upload->do_upload('image')) {
+        $upload_data = $this->upload->data();
+        $data['image'] = $upload_data['file_name'];
+    } else {
+        // Log or print upload errors
+        echo $this->upload->display_errors();
     }
+
+    // Call the correct model function to handle data insertion
+    $result = $this->Employeemodel->insertEmployee($data); // Corrected function name
+
+    // Send a response back to the Ajax request
+    if ($result) {
+        $response = array('success' => true, 'message' => 'Form submitted successfully!');
+    } else {
+        $response = array('success' => false, 'message' => 'Error submitting form. Please try again.');
+    }
+    header('Content-Type: application/json');
+    echo json_encode($response);
+    exit;
+}
+    }
+    
+   
+
+
+
+
+
+  
+
 //--------------------------------------------------------view----------------------------------------------------    
 
     public function get_employee() {
@@ -127,6 +118,9 @@ public function insert()
         // Get the form data from POST
         $data = $this->input->post();
         $data['qualification'] = isset($data['qualification']) ? implode(',', $data['qualification']) : '';
+
+
+
 
         // Configure upload settings
         $config['upload_path'] = './assets/uploads/';
@@ -267,6 +261,8 @@ public function update_employee() {
     $this->load->model('Employeemodel');
 
     $id = $this->input->post('id');
+    $imageUpdated = $this->input->post('image_updated');
+
     $data = array(
         'name' => $this->input->post('name'),
         'gender' => $this->input->post('gender'),
@@ -277,6 +273,22 @@ public function update_employee() {
         'address' => $this->input->post('address'),
         'qualification' => implode(', ', $this->input->post('qualification')), // Assuming qualification is an array
     );
+    if ($imageUpdated) {
+        $config['upload_path'] = './assets/uploads/';
+        $config['allowed_types'] = 'gif|jpg|png|jpeg|xlsx|xls|pdf|csv|doc|docx|odt|txt|mp4|mp3';
+        $config['max_size'] = 1024 * 1024;
+        $config['encrypt_name'] = TRUE;
+        $config['remove_spaces'] = TRUE;
+        $this->load->library('upload', $config);
+
+        if ($this->upload->do_upload('image')) {
+            $upload_data = $this->upload->data();
+            $data['image'] = $upload_data['file_name'];
+        } else {
+            // Log or print upload errors
+            echo $this->upload->display_errors();
+        }
+    }
 
     $affected_rows = $this->Employeemodel->update_employee($id, $data);
 

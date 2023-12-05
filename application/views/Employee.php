@@ -24,7 +24,7 @@
 
                     <div class="form-group">
                         <label for="name">Name:</label>
-                        <input type="text" class="form-control" name="name" id="name">
+                        <input type="text" class="form-control" name="name">
                     </div>
                     <div class="form-group">
                         <label for="gender">Gender:</label><br>
@@ -43,11 +43,11 @@
                     </div>
                     <div class="form-group">
                         <label for="dob">Date of Birth:</label>
-                        <input type="date" class="form-control" name="dob" id="dob">
+                        <input type="date" class="form-control" name="dob">
                     </div>
                     <div class="form-group">
                         <label for="place">Place:</label>
-                        <select class="form-control" name="place" id="place">
+                        <select class="form-control" name="place">
                             <option value="select">select</option>
                             <option value="kozhikode">Kozhikode</option>
                             <option value="kollam">Kollam</option>
@@ -78,19 +78,19 @@
 
                 <div class="form-group">
                     <label for="email">email:</label>
-                    <input type="email" class="form-control" name="email" id="email">
+                    <input type="email" class="form-control" name="email">
                 </div>
                 <div class="form-group">
                     <label for="address">address:</label>
-                    <input type="text" class="form-control" name="address" id="address">
+                    <input type="text" class="form-control" name="address">
                 </div>
                 <div class="form-group">
                     <label for="contact">contact:</label>
-                    <input type="text" class="form-control" name="contact" id="contact">
+                    <input type="text" class="form-control" name="contact">
                 </div>
                 <div class="form-group">
                    <label for="image">Image:</label>
-                   <input type="file" class="form-control" name="image" id="image">
+                   <input type="file" class="form-control" name="image" >
                 </div>
 
 
@@ -120,39 +120,41 @@
 
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <script>
-        $(document).ready(function () {
-            // Handle form submission
-            $('#submit').on('click', function (event) {
-                event.preventDefault();
+    $(document).ready(function () {
+        $('#submit').on('click', function (event) {
+            event.preventDefault();
 
-                // Serialize the form data
-                var formData = new FormData($('#Employee')[0]);
+            // Disable the submit button to prevent multiple clicks
+            $(this).prop('disabled', true);
 
-                // Make an AJAX request
-                $.ajax({
-                    type: 'POST',
-                   dataType: "json",
-                    encode: true,
-                    processData: false, // Important: prevent jQuery from processing the data
-            contentType: false, // Important: let the server handle the data
+            // Serialize the form data
+            var formData = new FormData($('#Employee')[0]);
 
-
-                    url: "<?php echo base_url('index.php/Employeecontroller/submit') ?>",
-                    data: formData,
-                    success: function (response) {
-                        console.log("success",response);
-                         alert(response.message);
-                        location.reload();
-
-
-                    },
-                    error: function (jqXHR, textStatus, errorThrown) {
-                        console.log( textStatus, errorThrown);
-                    }
-                });
+            // Make an AJAX request
+            $.ajax({
+                type: 'POST',
+                dataType: "json",
+                encode: true,
+                processData: false,
+                contentType: false,
+                url: "<?php echo base_url('index.php/Employeecontroller/submit') ?>",
+                data: formData,
+                success: function (response) {
+                    console.log("success", response);
+                    alert(response.message);
+                    location.reload();
+                },
+                error: function (jqXHR, textStatus, errorThrown) {
+                    console.log(textStatus, errorThrown);
+                },
+                complete: function () {
+                    // Re-enable the submit button after the request is complete
+                    $('#submit').prop('disabled', false);
+                }
             });
         });
-    </script>
+    });
+</script>
 
 </body>
 
